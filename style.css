@@ -43,3 +43,30 @@ text-decoration: underline;
 .site-footer a:hover {
   color: var(--text);
 }
+#board {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 6px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.tile {
+  width: min(62px, 15vw);
+  height: min(62px, 15vw);
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  user-select: none;
+}
+.tile:hover {
+  border-color: var(--muted);
+}
