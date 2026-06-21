@@ -44,6 +44,7 @@ text-decoration: underline;
   color: var(--text);
 }
 #board {
+
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   gap: 6px;
@@ -75,7 +76,7 @@ text-decoration: underline;
   flex-direction: column;
   gap: 6px;
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   padding: 0 6px;
 }
 .key-row {
