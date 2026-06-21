@@ -105,6 +105,11 @@ text-decoration: underline;
   font-size: 0.75rem;
 }
 
+.key.extra.wide {
+  flex: 2.0;
+  font-size: 0.75rem;
+}
+
 .key:hover {
   filter: brightness(1.15)
 }
