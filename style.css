@@ -71,6 +71,9 @@ text-decoration: underline;
 .tile:hover {
   border-color: var(--muted);
 }
+.tile.correct { background: var(--correct); border-color: var(--correct); color: var(--text); }
+.tile.present { background: var(--present); border-color: var(--present); color: var(--text); }
+.tile.absent  { background: var(--absent);  border-color: var(--absent);  color: var(--text);}
 #keyboard {
   display: flex;
   flex-direction: column;
@@ -118,3 +121,6 @@ text-decoration: underline;
 .key:active {
   transform: translateY(1px);
 }
+
+@keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.row.shake { animation: shake 0.3s; }

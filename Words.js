@@ -1,0 +1,7 @@
+const WORDS = [
+  "APPLE", "BRAIN", "CHESS", "DREAM", "EAGLE",
+  "FLAME", "GHOST", "HEART", "IMAGE", "JUICE",
+  "KNIFE", "LEMON", "MUSIC", "NIGHT", "OCEAN",
+  "PAPER", "QUEEN", "RIVER", "SPACE", "TRAIN",
+  "CAGAN", "HAMZA", "LLAMA", "TROLL", "ALARM",
+];
